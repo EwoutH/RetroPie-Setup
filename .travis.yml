@@ -1,0 +1,7 @@
+language: minimal
+dist: bionic
+arch:
+ - amd64
+ - arm64
+ 
+script: sudo ./retropie_setup.sh
