@@ -3,5 +3,6 @@ dist: bionic
 arch:
  - amd64
  - arm64
- 
+
+install: sudo /proc/cpuinfo
 script: sudo ./retropie_setup.sh
